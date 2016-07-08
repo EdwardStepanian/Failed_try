@@ -3,10 +3,10 @@
 
 	define('ROOT', dirname(__FILE__));
 	require_once __DIR__.'/vendor/autoload.php';
-//	$router = new Router();
-//	$router->run();
+	$router = new Router();
+$router->run();
 
-	echo phpinfo();
+
 
 ?>
 
@@ -54,7 +54,11 @@
 				</div>
 			</div>
 			<div class="col-md-12">
-				content
+				<div>
+					<a href="http://main.dev/phpmyadmin/">
+						Admin
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

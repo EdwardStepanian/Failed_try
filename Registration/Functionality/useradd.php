@@ -50,7 +50,6 @@ if(isset($name) && isset($pass) && isset($email) && isset($gender) && isset($use
 	}
 
 }
-
 if($execute){
 /*
 	$db -> query("
