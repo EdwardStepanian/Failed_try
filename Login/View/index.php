@@ -23,7 +23,8 @@
 	or <a href="../../Registration/View/index.php">
 		Registrate
 	</a>
-	</form>
+
+
 		<form class="form" method="post" action="../Functionality/login.php">
 		    <input type="text" name ='username' placeholder="Username">
 	 		<input type="password" name ='password' placeholder="Password">
